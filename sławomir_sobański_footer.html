@@ -1,0 +1,137 @@
+<style>
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 700;
+    font-style: italic;
+}
+
+/* Responsywność dla urządzeń mobilnych */
+@media screen and (max-width: 600px) {
+    .footer-table {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 10px !important;
+    }
+    
+    .image-cell {
+        width: 120px !important;
+        padding-right: 5px !important;
+        vertical-align: top !important;
+    }
+    
+    .person-image {
+        width: 120px !important;
+        object-fit: contain !important;
+    }
+    
+    .content-cell {
+        padding-left: 8px !important;
+    }
+    
+    .person-name {
+        font-size: 22px !important;
+        margin: 0 0 5px 0 !important;
+    }
+    
+    .contact-info {
+        font-size: 12px !important;
+        margin: 0 0 10px 0 !important;
+    }
+    
+    .office-info {
+        font-size: 10px !important;
+        margin: 0 0 10px 0 !important;
+    }
+    
+    .dealer-info {
+        margin-left: 15px !important;
+        font-size: 11px !important;
+    }
+    
+    .legal-text {
+        font-size: 8px !important;
+        margin: 0 0 8px 0 !important;
+    }
+    
+    .eco-text {
+        font-size: 11px !important;
+        margin-top: 3px !important;
+    }
+}
+
+/* Dodatkowe reguły dla średnich ekranów (tablety) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .footer-table {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .image-cell {
+        width: 150px !important;
+    }
+    
+    .person-image {
+        width: 150px !important;
+    }
+    
+    .person-name {
+        font-size: 28px !important;
+    }
+}
+
+/* Styl dla dużych ekranów */
+@media screen and (min-width: 901px) {
+    .footer-table {
+        width: 100% !important;
+        max-width: 1000px !important;
+    }
+}
+</style>
+
+<table class="footer-table" style="width: 100%; max-width: 1000px; font-family: 'Josefin Sans', sans-serif; font-size: 11.6px; color: #000; line-height: 1.4; border-collapse: collapse;">
+    <tr>
+      <td class="image-cell" style="vertical-align: top; width: 175px; padding-right: 8.3px; height: 100%;">
+        <div style="position: relative; height: 100%;">
+          <img class="person-image" src="combined_Sławomir Sobański.png" alt="Sławomir Sobański" style="display:block; width: 175px; height: auto; position: sticky; top: 0;">
+        </div>
+      </td>
+      <td class="content-cell" style="padding-left: 12.5px; vertical-align: top;">
+        <p class="person-name" style="font-size: 33.3px; margin: 0 0 8.3px 0; color: #d10f1f; font-weight: 400; font-family: 'Josefin Sans', sans-serif;">Sławomir Sobański</p>
+        <p class="contact-info" style="font-size: 16.6px; margin: 0 0 15px 0; font-weight: 500; font-family: 'Josefin Sans', sans-serif;">nr tel: <span style="color: #d10f1f;">+48 609 228 800</span><br>
+        e-mail: <span style="color: #d10f1f;">slawomir.sobanski@rwjcentrumdrzwi.pl</span></p>
+  
+        <p class="office-info" style="font-size: 12.5px; font-family: 'Josefin Sans', sans-serif; margin: 0 0 15px 0; line-height: 1.2;">
+        <strong>Biuro Obsługi Klienta</strong><br>
+        tel. 609 22 88 00, 609 22 44 77<br>
+        e-mail: BOK@rwjcentrumdrzwi.pl<br>
+        ul. Kobylnicka 52, 62-007 Bugaj<br>
+        <span style="display: flex; flex-wrap: wrap;">
+          <span style="font-family: 'Josefin Sans', sans-serif;">Centrum Magazynowe Bugaj – Budynek A1</span>
+          <span class="dealer-info" style="margin-left: 25px; font-size: 15px; font-weight: 625; font-family: 'Josefin Sans', sans-serif;">DEALER: PORTA | DRE | POL-SKONE | KMT | CAL</span>
+        </span></p>
+  
+        <p class="legal-text" style="font-size: 10px; color: #000; font-family: 'Josefin Sans', sans-serif; font-weight: 550; margin: 0 0 12.5px 0; line-height: 1.5; text-align: justify;">
+          RWJ Centrum Drzwi Sp. z o.o. ul. Wiejska 32, 62-020 Jasin, zarejestrowana w Sądzie Rejonowym Poznań Nowe Miasto i Wilda w Poznaniu, IX Wydział Gospodarczy Krajowego Rejestru Sądowego | KRS 0000927194 |<br>
+          NIP 606-01-11-539 | REGON 520202511 | Kapitał zakładowy 100 000,00 zł w całości opłacony
+        </p>
+  
+        <p class="legal-text" style="font-size: 10px; color: #000; font-family: 'Josefin Sans', sans-serif; font-weight: 550; margin: 0 0 12.5px 0; line-height: 1.5; text-align: justify;">
+          Administratorem Twoich danych jest RWJ Centrum Drzwi Sp. z o.o. W każdym czasie możesz skorzystać z przysługujących Ci praw, w tym wycofać zgodę na przetwarzanie danych, uzyskać dostęp do swoich danych; poprosić o sprostowanie i uzupełnienie danych, usunięcie danych; ograniczenie przetwarzania danych; wyrazić sprzeciw wobec przetwarzania danych, wystąpić o przeniesienie danych i ze skargą do organu nadzorczego.
+        </p>
+  
+        <p class="legal-text" style="font-size: 10px; color: #000; font-family: 'Josefin Sans', sans-serif; font-weight: 550; margin: 0 0 5px 0; line-height: 1.5; text-align: justify;">
+          Zawartość niniejszej korespondencji ma charakter poufny i jest przeznaczona wyłącznie do wiadomości Adresata, a także nie może być rozpowszechniana ani publikowana, bez uprzedniej, pisemnej zgody RWJ EKO Sp. z o.o. Jeśli nie jesteś zamierzonym odbiorcą tej wiadomości, informujemy, że jej ujawnianie, kopiowanie, przesyłanie lub podejmowanie jakichkolwiek działań w związku z treścią tej wiadomości jest zabronione.
+        </p>
+  
+        <p class="eco-text" style="font-size: 15px; color: rgb(32, 208, 102); font-weight: 600; text-align: center; margin-top: 5px; font-family: 'Josefin Sans', sans-serif;">„Bądź eko – nie drukuj, jeśli nie musisz!"</p>
+      </td>
+    </tr>
+  </table> 
